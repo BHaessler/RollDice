@@ -19,19 +19,20 @@ def repeat_roll(fst_roll):
     print("Here is the next number you rolled!")
     roll_again = (random.randrange(1,6))
     print(str(roll_again) + "\n")
+    print("This roll will be compared to your first roll to check for pairs.")
     
     if (roll_again ==1 and fst_roll == 1): 
-        print("You rolled a snake eyes pair")
+        print("You rolled a snake eyes pair, which is two ones")
     elif (roll_again ==2 and fst_roll == 2): 
-        print("You rolled a ballerina pair")
+        print("You rolled a ballerina pair, which is two twos")
     elif (roll_again == 3 and fst_roll == 3): 
-        print("You rolled a triple pair")
+        print("You rolled a triple pair, which is two threes")
     elif (roll_again == 4 and fst_roll == 4): 
-        print("You rolled a square pair")
+        print("You rolled a square pair, which is two fours")
     elif (roll_again == 5 and fst_roll == 5): 
-        print("You rolled a Big Ben pair")
+        print("You rolled a Big Ben pair, which is two fives")
     elif (roll_again == 6 and fst_roll == 6): 
-        print("You rolled a boxcar pair")
+        print("You rolled a boxcar pair, which is two sixes")
     else:
         print("Your rolled numbers are unique")
 
