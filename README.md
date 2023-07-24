@@ -17,8 +17,8 @@ This was developed in Visual Studio Code and the CLI (command line interface)
 2. Run the command `pip install -r requirements.txt` to ensure you have all the dependencies on the system you are using to run this program. 
 
 ## **FUTURE DEVELOPMENTS**
-
-I would also like to add a GUI function that shows the face of the die rolled. This will probably be done with a Django webframe and attachments but will be a work in progress for a while.
+- Comparing the dice to other dice not only the first one. 
+- I would also like to add a GUI function that shows the face of the die rolled. This will probably be done with a Django webframe and attachments but will be a work in progress for a while. This means the user will be able to run the script and then have a local webpage to roll the die and view the results from. 
 
 ## KNOWN BUGs
 - 
